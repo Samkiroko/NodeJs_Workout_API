@@ -1,5 +1,6 @@
+// In src/v1/routes/workoutRoutes.js
 const express = require('express');
-const workoutController = require('../controllers/workoutController');
+const workoutController = require('../../controllers/workoutController');
 
 const router = express.Router();
 

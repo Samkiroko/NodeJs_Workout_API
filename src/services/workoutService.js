@@ -1,6 +1,11 @@
-// In src/services/workoutService.js
+// In src/database/workoutService.js
+// *** ADD ***
+const Workout = require('../database/Workout');
 const getAllWorkouts = () => {
-  return;
+  // *** ADD ***
+  const allWorkouts = Workout.getAllWorkouts();
+  // *** ADD ***
+  return allWorkouts;
 };
 
 const getOneWorkout = () => {
